@@ -44,6 +44,7 @@
 				<c:if test="${usuarioLogado.admin }">
 					| <a href="/reciclometro/controlador?acao=UsuarioForm">Novo Usuário</a> |
 					<a href="/reciclometro/controlador?acao=ListaUsuarios">Consultar Usuários</a>
+					<a href="/reciclometro/controlador?acao=UsuarioPerfil">Novo Perfil Usuário</a>
 				</c:if> 
 			</p>
 		</c:otherwise>
